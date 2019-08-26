@@ -26,6 +26,9 @@ setup(
         "Topic :: Office/Business :: Financial :: Investment",
         "Typing :: Typed",
     ],
-    install_requires=[],
+    install_requires=[
+        "bankroll_broker @ git+https://github.com/bankroll-py/bankroll-broker@master#egg=bankroll_broker"
+        "bankroll_model @ git+https://github.com/bankroll-py/bankroll-model@master#egg=bankroll_model"
+    ],
     keywords="trading investing finance portfolio",
 )
