@@ -5,7 +5,7 @@ from .provider import MarketDataProvider
 
 
 class MarketConnectedAccountData(AccountData):
-    @abstractmethod
     @property
+    @abstractmethod
     def marketDataProvider(self) -> MarketDataProvider:
         pass
