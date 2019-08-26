@@ -3,6 +3,7 @@ from bankroll.broker import AccountData
 
 from .provider import MarketDataProvider
 
+
 class MarketConnectedAccountData(AccountData):
     @abstractmethod
     @property
