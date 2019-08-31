@@ -26,6 +26,10 @@ setup(
         "Topic :: Office/Business :: Financial :: Investment",
         "Typing :: Typed",
     ],
-    install_requires=["bankroll_broker ~= 0.4.0", "bankroll_model ~= 0.4.0"],
+    install_requires=[
+        "bankroll_broker ~= 0.4.0",
+        "bankroll_model ~= 0.4.0",
+        "Rx >= 3.0.1, == 3.*",
+    ],
     keywords="trading investing finance portfolio",
 )
